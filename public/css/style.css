@@ -1,0 +1,311 @@
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.top{
+    text-align: center;
+    padding-top: 50px;
+}
+.navbar-dark .navbar-nav .nav-link :active{
+    transition: border-bottom 1s;
+    color: #ff5857 !important;
+}
+.nav-link.active{
+    color: #ff5857 !important;
+    border-bottom: 3px solid #7a0303;
+}
+.nav-link.actives{
+    color: #ff5857 !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    border-bottom: 3px solid #7a0303;
+    color: #ff5857 !important;
+}
+.topcontent{
+    display: flex;
+}
+.large-img{
+    max-width: 1519px; 
+    padding-left: 0;
+    
+}
+.small-img{
+    max-width: 200px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 10px;
+}
+.smalladd{
+    border-top: 5px solid #7a0303;
+}
+.small-img:hover{
+    border-top: 6px solid #7a0303;
+}
+.presmall{
+    display: none; 
+    opacity: 0
+}
+.textlogo1>h1{
+    font-size: 100px;
+    
+}
+.textlogo1>p{
+    padding-bottom: 70px;   
+}
+.textlogo1{
+    padding-top: 70px;
+    color: white;
+    max-width: 100%;
+    max-height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerR{
+    padding-left: 15px;
+}
+.contentR{
+    color: #909292;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contentR:hover{
+    color: #ff5857;
+}
+.imgR>.textimgR>p{
+    font: normal 18px/24px Ubuntu;
+    font-style: italic;
+    color: red !important;
+    font-size: 13px;
+}
+.imgR>.textimgR{
+    color: #b9b9b9;
+}
+.imgR{
+   display: flex;
+    font-size: 15px;  
+   text-align: left;
+}
+.imgR>img{
+    display: block;
+    max-width: 200px;
+    max-height: 100px;
+    padding-top: 20px;
+}
+.test1>.containerR>.imgR>img:hover{
+    opacity: 0.5;
+}
+.buttonR{
+    color: #ff5857;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1s;
+  }
+  .buttonR:hover{
+      color: white;
+  }
+  .button {
+    background: none;
+    display: inline-block;
+    position: relative;
+    padding: 12px 37px 12px 37px;
+    border: 2px solid #303334;
+    border-radius: 0;
+    box-shadow: none;
+    transition: 0.8s;
+    vertical-align: top;
+    letter-spacing: 1.4px;
+    line-height: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    text-shadow: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a4a5a5;
+  }
+  .MORE{
+    padding-top: 80px;
+    text-align: center;
+    transition: color 1s;
+  }
+  .button:hover{
+    background: rgb(168, 29, 29);
+    color: white;
+  }
+  .imgT{
+    padding-top: 100px;
+    display: flex;
+  }
+  .imgT2{
+    padding-top: 40px;
+    display: flex;
+}
+
+  .imgT>.imgg1>img{
+    padding-left: 40px;
+    width: 540px;
+    height: 400px;
+
+  }
+  .imgT>.imgg2>img{
+    padding-left: 40px;
+    width: 250px;
+    height: 400px;
+  }
+  .imgT>.imgg3>img{
+    padding-left: 40px;
+    width: 450px;
+    height: 400px;
+  }
+  .imgT>.imgg4>img{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 270px;
+    height: 400px;
+  }
+  .imgT2>.imgg1>img{
+    padding-left: 40px;
+    width: 300px;
+    height: 400px;
+  }
+  .imgT2>.imgg2>img{
+    padding-left: 40px;
+    width: 490px;
+    height: 400px;
+  }
+  .imgT2>.imgg3>img{
+    padding-left: 40px;
+    width: 370px;
+    height: 400px;
+  }
+  .imgT2>.imgg4>img{
+    padding-left: 40px;
+    width: 310px;
+    height: 400px;
+  }
+.containerR2{
+    padding-left: 40px;
+}
+.contentR2{
+    color: #909292;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contentR2:hover{
+    color: #ff5857;
+}
+.imgR2>p{
+    font: normal 18px/24px Ubuntu;
+    font-style: italic;
+    color: red !important;
+}
+.imgR2>.textimgR2>h6{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 13px;
+}
+.imgR2>.textimgR2>h1{
+  padding-left: 10px;
+}
+.imgR2>.textimgR2{
+    color: #b9b9b9;
+    display: flex;
+    padding-right: 5px;
+}
+.imgR2{
+    font-size: 15px;  
+   text-align: left;
+}
+.imgR2>img{
+    display: block;
+    max-width: 2000px;
+    max-height: 1000px;
+    padding-top: 20px;
+}
+.test2{
+    padding-left: 130px;    
+    display: flex;
+}
+.test2>.imgR2>img{
+    border: solid 1px red;
+}
+.h1test{
+    padding-top: 50px;
+}
+.containerR3{
+    padding-left: 40px;
+}
+.contentR3{
+    color: #909292;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contentR3:hover{
+    color: #ff5857;
+}
+.imgR3>p{
+    font: normal 18px/24px Ubuntu;
+    font-style: italic;
+    color: red !important;
+    font-size: 13px;
+}
+.imgR3>.textimgR3>h6{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 13px;
+}
+.imgR3>.textimgR3>h1{
+  padding-left: 10px;
+}
+.imgR3>.textimgR3{
+    color: #b9b9b9;
+    display: flex;
+    padding-right: 5px;
+}
+.imgR3{
+    font-size: 15px;  
+   text-align: left;
+}
+.test3>.containerR3>.imgR3>img{
+    display: block;
+    max-width: 220px;
+    max-height: 100px;
+    padding-top: 20px;
+}
+.test3>.containerR3>.imgR3>img:hover{
+    opacity: 0.5;
+}
+.test3{
+    padding-left: 130px;    
+    display: flex;
+}
+.h1test{
+    padding-top: 50px;
+}
+.bottomm
+{
+    border-top: 5px solid #7a0303;
+}
+.bottomm>.containerR4{
+    display: flex;  
+    padding-top: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #757879;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+.bottomm>.containerR4>.text4{
+    padding-left: 180px;
+    padding-right: 450px;
+}
+.bottomm>.containerR4>.text41{
+    padding-right: 60px;
+}
+.bottomm>.containerR4>.text42{
+    padding-right: 60px;
+}
